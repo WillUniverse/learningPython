@@ -19,7 +19,7 @@ def shellSort(numbers):
             changed = False
             j = i - h
 
-            while j >= 0 and numbers[j] > numbers[i]:
+            while j >= 0 and numbers[j] > temporary:
                 numbers[j+h] = numbers[j]
                 changed = True
                 j -= h
